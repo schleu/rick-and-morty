@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    max-width: 1440px;
+    height: 5rem;
+    padding: 1rem 2rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fdfdfd;
+    box-shadow: 0rem 0rem 0.5rem #00000033;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+
+.header .navigation{
+    display: flex;
+    gap: 5rem;
+    color:#000000;
+    font-weight: 700;
+}
+
+.header .navigation a:hover{
+    text-shadow: 0rem 0.9rem 1rem #00000099;
+    transition: all;
+    transition-duration: 0.7s;
+}

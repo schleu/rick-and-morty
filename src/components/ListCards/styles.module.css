@@ -1,0 +1,20 @@
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  
+    font-size: 0.85rem;
+    max-width: var(--max-width);
+    width: 100%;
+    z-index: 2;
+    font-family: var(--font-mono); 
+  }
+
+  @media screen and (max-width: 768px) {
+    .description {
+      justify-content: center;
+      align-items: center;
+    }
+  }

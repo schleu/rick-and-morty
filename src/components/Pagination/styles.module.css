@@ -1,0 +1,13 @@
+.pagination{
+    display: flex;
+    gap:0.5rem;
+  }
+  
+  .pagination button{
+    outline: 0;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  
