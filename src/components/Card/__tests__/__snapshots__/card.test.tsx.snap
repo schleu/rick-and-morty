@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> snapshot 1`] = `
+<div>
+  <div
+    class="card"
+    data-testid="card"
+  >
+    <a
+      href="/character/1"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height="150"
+        src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75 2x"
+        style="color: transparent;"
+        width="200"
+      />
+    </a>
+    <div
+      class="cardDescription"
+    >
+      <div
+        class="cardTitle"
+      >
+        <h3>
+          Rick Sanchez
+        </h3>
+        <button
+          class="favorite"
+          type="button"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height="20"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            width="20"
+          />
+        </button>
+      </div>
+      <p>
+        <span>
+          Human
+        </span>
+         - 
+        <span>
+          Male
+        </span>
+      </p>
+      <p
+        class="characterStatus"
+      >
+        <span
+          class="characterStatusPointer"
+        />
+        <span>
+          Alive
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episode component snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <p
+      class="season"
+      data-testid="episode"
+    >
+      S01E01
+    </p>
+    <p
+      class="name"
+      data-testid="name"
+    >
+      Pilot
+    </p>
+    <p
+      class="date"
+      data-testid="date"
+    >
+      10/11/2017
+    </p>
+  </div>
+</div>
+`;

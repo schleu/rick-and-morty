@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListCard /> screenshot empty 1`] = `
+<div>
+  <div
+    class="description"
+  >
+    <h2>
+      No characters found
+    </h2>
+  </div>
+</div>
+`;

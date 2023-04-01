@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     domains: ['rickandmortyapi.com'],
   },
+  swcMinify: false
+
 }
 
 module.exports = nextConfig

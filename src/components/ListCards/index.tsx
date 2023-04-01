@@ -7,7 +7,7 @@ type Props={
 }
 
 export function ListCard({characters, isLoading}:Props){
-    return(
+    return characters.length > 0 ? (
         <div className={styles.description}>
           {isLoading || !characters ? 
             Array(20).fill('').map((_,i)=><CardSkeleton key={i}/>)
@@ -17,5 +17,9 @@ export function ListCard({characters, isLoading}:Props){
             ))  
           }
         </div>
+    ):(
+      <div className={styles.description}>
+        <h2>No characters found</h2>
+      </div>
     )
 }

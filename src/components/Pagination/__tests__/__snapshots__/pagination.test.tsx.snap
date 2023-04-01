@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component snapshot 1`] = `
+<div>
+  <div
+    class="pagination"
+  >
+    <button>
+      &lt;&lt;
+    </button>
+    <button>
+      &lt;
+    </button>
+    <p>
+      2 de 5
+    </p>
+    <button>
+      &gt;
+    </button>
+    <button>
+      &gt;&gt;
+    </button>
+  </div>
+</div>
+`;

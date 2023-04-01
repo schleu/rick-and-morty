@@ -1,13 +1,12 @@
 import styles from './styles.module.css'
 
-
 type iProps={    
     changePage: (i:number)=>void;
     actualPage:number;
     totalPages: number;
-    itemsPerPage?:number;
 }
-export function Pagination({actualPage,totalPages,itemsPerPage=20,changePage}:iProps){
+
+export function Pagination({actualPage,totalPages,changePage}:iProps){
 
     function fisrtPage(){
         changePage(1)
@@ -30,7 +29,7 @@ export function Pagination({actualPage,totalPages,itemsPerPage=20,changePage}:iP
         <div className={styles.pagination}>
             <button onClick={fisrtPage}>{"<<"}</button>
             <button onClick={previousPage}>{"<"}</button>
-                {actualPage} de {totalPages}
+            <p>{`${actualPage} de ${totalPages}`}</p>
             <button onClick={nextPage}>{">"}</button>
             <button onClick={lastPage}>{">>"}</button>
         </div>

@@ -8,17 +8,20 @@ type props={
 }
 export function Episode({urlEpisode}:props){
 
-
     const fetcher:Fetcher<iEpisode> = (args:RequestInfo|URL)=>fetch(args).then(res=>res.json()) 
-    const { data, isLoading } = swr(urlEpisode,fetcher)
+    const { data } = swr(urlEpisode,fetcher)
     
     const formatedDate = format(new Date(data?.created||0),'dd/MM/yyyy')
 
-    return(
+    return data ? (
         <div className={styles.card}>
-            <p className={styles.season}>{data?.episode}</p>
-            <p className={styles.name}>{data?.name}</p>
-            <p className={styles.date}>{formatedDate}</p>
+            <p data-testid="episode" className={styles.season}>{data?.episode}</p>
+            <p data-testid="name" className={styles.name}>{data?.name}</p>
+            <p data-testid="date" className={styles.date}>{formatedDate}</p>
+        </div>
+    ): (
+        <div className={styles.card}>
+            <p>Error loading episode data</p>
         </div>
     )
 
