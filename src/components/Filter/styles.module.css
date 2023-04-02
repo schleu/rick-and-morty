@@ -9,6 +9,7 @@
 .filter form{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
@@ -30,25 +31,24 @@
 }
 
 .filter input::placeholder{
-  color: white;
+  color: #FFFFFF88;
   opacity: 1;
 }
 
 .filter select{
+  outline: 0;
+  border: none;
+  border-radius: 0.5rem;  
+  padding: 0.25rem 1rem;
+  
   font-size: 1rem;
   line-height: 1.25rem;
-  
-  border-radius: 0.5rem;
-  padding: 0.5rem 1.25rem;
-
-  border: none;
-  outline: 0;
 }
 
 .filter button{
   padding: 0.2rem 1rem;
   background: #FFFFFF;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   
   font-style: normal;
   font-weight: 700;
@@ -81,13 +81,13 @@
   width: 30px;
 }
 
-.filter select {
-  display: none;
-}
-
 @media (min-width: 768px){
   .filter button{
     font-size: 1.3rem;
     padding: 0.5rem 2rem;
+  }
+
+  .filter select{
+    padding: 0.5rem 1.25rem;
   }
 }

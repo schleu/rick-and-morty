@@ -6,9 +6,9 @@ import { IoLogoLinkedin } from 'react-icons/io'
 
 export function Footer(){
     return(
-        <>
+        <div className={styles.main}>
             <Contact />
-            <div className={styles.main}>
+            <div className={styles.footer}>
                 <div className={styles.socialMedia}>
                     <a href={'https://www.linkedin.com/in/danilo-schleu/'} target={"_blank"}>    
                         <IoLogoLinkedin className={styles.icone}/>
@@ -18,6 +18,6 @@ export function Footer(){
                     </a>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

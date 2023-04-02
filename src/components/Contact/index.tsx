@@ -5,6 +5,7 @@ export function Contact(){
     return(
         <div className={styles.main} id={AppRoutes.CONTACT}>
             <div className={styles.card}>
+                <h2>Sobre o desenvolvedor</h2>
                 <div className={styles.buttons}>
                     <a href="https://portfolio-danilo-schleu.netlify.app/#contact" target='_blank'>
                         <button  className={styles.buttonFilled}>Portfólio</button>

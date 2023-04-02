@@ -1,9 +1,10 @@
-.main{
-    width: 100%;
-    padding: 2rem 1rem;
+
+.main h2{
+    color:#FFFFFF;
 }
 
 .card {
+    width: 100%;
     max-width: 900px;
     display: flex;
     flex-direction: column;
@@ -12,18 +13,17 @@
     gap: 2rem;
 
     padding: 3rem 2rem;
-    background: #030028;
-    border-radius: 10px;
+    border-radius: 0.625rem;
+    background: linear-gradient(20deg, #A7CB54 0%,#030028 20%,#030028 70%, #A7CB54 100%);
 }
 
 .main .buttons{
     display: flex;
     gap: 2rem;
-    flex-direction: column;
 }
 
 .main button {
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.625rem;
 
     font-style: normal;
