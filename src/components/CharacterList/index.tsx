@@ -1,9 +1,8 @@
-import styles from '@/styles/Home.module.css'
+import styles from './style.module.css'
 import { useContext, useMemo, useState } from 'react'
 import useSWR, { Fetcher } from 'swr'
 
 
-import { FilterProps } from '@/components/Filter'
 import { Pagination } from '@/components/Pagination'
 
 import { ListCard } from '@/components/ListCards'

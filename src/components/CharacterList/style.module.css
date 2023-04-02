@@ -1,28 +1,13 @@
 
 
-.main {
+.characters {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 2rem;
-  min-height: 100vh;
   width: 100%;
-  background-image: url('../../public/bg.png');
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin-top: -2rem;
+  padding: 0 1rem;
 }
 
-.logo{
-  width: 100%;
-  min-height: 370px;
-  background-image: url('../../public/rick_and_morty_logo.png');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.characters{
-  margin-top: 30rem;
-}

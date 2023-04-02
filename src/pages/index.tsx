@@ -5,6 +5,7 @@ import { Filter } from '@/components/Filter'
 import { Favorites } from '@/components/Favorites'
 import { CharacterList } from '@/components/CharacterList'
 import { Contact } from '@/components/Contact'
+import { Hero } from '@/components/Hero'
 
 
 export default function Home() {
@@ -17,8 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.logo} />
-        <Filter />
+        <Hero />
         <CharacterList />
         <Favorites />
         <Contact />
