@@ -12,6 +12,26 @@ exports[`<ListCard /> screenshot 1`] = `
         class="card"
         data-testid="card"
       >
+        <div
+          class="favoriteButton"
+        >
+          <button
+            class="favorite"
+            type="button"
+          >
+            <img
+              alt=""
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </button>
+        </div>
         <a
           href="/character/1"
         >
@@ -61,6 +81,26 @@ exports[`<ListCard /> screenshot 1`] = `
         class="card"
         data-testid="card"
       >
+        <div
+          class="favoriteButton"
+        >
+          <button
+            class="favorite"
+            type="button"
+          >
+            <img
+              alt=""
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </button>
+        </div>
         <a
           href="/character/2"
         >
@@ -110,6 +150,26 @@ exports[`<ListCard /> screenshot 1`] = `
         class="card"
         data-testid="card"
       >
+        <div
+          class="favoriteButton"
+        >
+          <button
+            class="favorite"
+            type="button"
+          >
+            <img
+              alt=""
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </button>
+        </div>
         <a
           href="/character/3"
         >

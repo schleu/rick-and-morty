@@ -27,7 +27,7 @@
   }
 
   .container{
-    width: 4500px;
+    width: 3500px;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;

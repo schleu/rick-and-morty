@@ -7,11 +7,6 @@ exports[`Pagination component snapshot 1`] = `
   >
     <button>
       <span>
-        &lt;&lt;
-      </span>
-    </button>
-    <button>
-      <span>
         &lt;
       </span>
     </button>
@@ -21,11 +16,6 @@ exports[`Pagination component snapshot 1`] = `
     <button>
       <span>
         &gt;
-      </span>
-    </button>
-    <button>
-      <span>
-        &gt;&gt;
       </span>
     </button>
   </div>

@@ -1,27 +1,30 @@
-.pagination{
+  .pagination{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:1rem;
+    padding: 0 1rem;
+  }
 
+  .pagination p{
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 150%;
     color: #A7CB54;
   }
   
   .pagination button{
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 0.8rem;
+    line-height: 130%;
     background: #FFFFFF;
     border-radius: 40px;
     text-align: center;
   
-    padding: 0.1rem 2rem;
-  
+    padding: 0.1rem 1rem;
 
     filter: drop-shadow(0px 9px 28px rgba(255, 255, 255, 0.1));
   }
@@ -33,6 +36,15 @@
     -webkit-text-fill-color: transparent;
   }
 
-  .category{
-    
+  @media (min-width: 768px){
+
   }
+
+  @media (min-width: 1024px){
+    .pagination button{
+      font-size: 1.25rem;
+      padding: 0.1rem 2rem;
+    }
+  }
+
+ 

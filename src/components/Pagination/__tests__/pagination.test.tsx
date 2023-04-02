@@ -23,12 +23,6 @@ describe("Pagination component", () => {
       expect(getByText(`${actualPage} de ${totalPages}`)).toBeInTheDocument();
     });
   
-    it("calls changePage function with the correct value when 'firstPage' is clicked", () => {
-      const { getByText } = render(<Pagination actualPage={actualPage} totalPages={totalPages} changePage={mockChangePage} />);
-      fireEvent.click(getByText("<<"));
-      expect(mockChangePage).toHaveBeenCalledWith(1);
-    });
-  
     it("calls changePage function with the correct value when 'previousPage' is clicked", () => {
       const { getByText } = render(<Pagination actualPage={actualPage} totalPages={totalPages} changePage={mockChangePage} />);
       fireEvent.click(getByText("<"));
@@ -39,12 +33,6 @@ describe("Pagination component", () => {
       const { getByText } = render(<Pagination actualPage={actualPage} totalPages={totalPages} changePage={mockChangePage} />);
       fireEvent.click(getByText(">"));
       expect(mockChangePage).toHaveBeenCalledWith(3);
-    });
-  
-    it("calls changePage function with the correct value when 'lastPage' is clicked", () => {
-      const { getByText } = render(<Pagination actualPage={actualPage} totalPages={totalPages} changePage={mockChangePage} />);
-      fireEvent.click(getByText(">>"));
-      expect(mockChangePage).toHaveBeenCalledWith(totalPages);
     });
   });
   

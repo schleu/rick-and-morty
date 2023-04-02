@@ -36,10 +36,19 @@ export function CharacterList(){
     const characters = data?.results || []
 
     return(
-        <div className={styles.characters}>
+        <div className={styles.main}>
           <Title category='Personagens' title='Resultado da busca' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae senectus neque, lorem sit in mattis. Vehicula eget eget tellus' />
-          <ListCard isLoading={isLoading} characters={characters} />
-          <Pagination actualPage={actualPage} totalPages={maxPages} changePage={setActualPage} />
+          <div className={styles.container}>
+            {characters.length ? (
+              <>
+              <ListCard isLoading={isLoading} characters={characters} />
+              <Pagination actualPage={actualPage} totalPages={maxPages} changePage={setActualPage} />
+              </>
+            ):(
+              "Nenhum personagem encontrado"
+            )}
+
+          </div>
         </div>
     )
 }

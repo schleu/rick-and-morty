@@ -8,8 +8,6 @@ import { ApiRoutes } from '@/contants/ApiRoutes';
 import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext';
 import { iCharacter } from '@/types';
 import { useRouter } from 'next/router';
-import femaleIcon from '../../../public/female.svg';
-import maleIcon from '../../../public/male.svg';
 import starIcon from '../../../public/star.svg';
 import starFilledIcon from '../../../public/starFilled.svg';
 
@@ -38,7 +36,7 @@ export default function CharacterDetail(){
           </div>
 
           <div className={styles.data}>
-            <p>{data.species} - {data.gender} <Image src={data.gender==='Female' ? femaleIcon : maleIcon} alt="" width={15} height={15} /> </p>
+            <p>{data.species} - {data.gender} </p>
           </div>
 
           <div className={''}>

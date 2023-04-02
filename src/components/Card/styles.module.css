@@ -20,9 +20,8 @@
   
   .card .favoriteButton{
     position: absolute;
-    top: 50%;
-    translate: -50%;
-    right: 0.5rem;
+    top: 2rem;
+    right: 3rem;
   }
 
   .cardDescription{

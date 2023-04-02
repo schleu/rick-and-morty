@@ -1,41 +1,44 @@
 .main{
     width: 100%;
-    padding: 2rem 10rem;
+    padding: 2rem 1rem;
 }
 
 .card {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 
-    padding: 3rem 10rem;
-    background: conic-gradient(from 175.21deg at 50% 50.18%, #030028 -24.36deg, #030028 48.75deg, #1D3434 103.13deg, #030028 260.64deg, #030028 335.64deg, #030028 408.75deg);
+    padding: 3rem 2rem;
+    background: #030028;
     border-radius: 10px;
 }
 
 .main h2{
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 59px;
+    line-height: 130%;
     color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .main .buttons{
     display: flex;
     gap: 2rem;
+    flex-direction: column;
 }
 
 .main button {
     padding: 1rem 2rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 130%;
     text-align: center;
     cursor: pointer;
     outline: 0;
@@ -46,11 +49,13 @@
     color: #030028;
     border: 2px solid transparent;
 }
+
 .buttonFilled:hover{
     background: #f6f6f1;
     color: #030028;
     border: 2px solid transparent;
 }
+
 .buttonFilled:active{
     border: 2px solid #FFFFFF;
     background: transparent;
@@ -72,4 +77,25 @@
     background: #FFFFFF;
     color: #030028;
     border: 2px solid transparent;
+}
+
+@media (min-width: 1024px){
+    .main{
+        padding: 2rem 10rem;
+    }
+
+    .card{
+        padding: 3rem 10rem;
+    }
+    
+    .main .card h2{
+        font-size: 3rem;
+    }
+
+    .main button {
+        padding: 1rem 2rem;
+    }
+    .main .buttons{
+        flex-direction: row;
+    }
 }

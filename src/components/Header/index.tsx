@@ -16,7 +16,7 @@ export function Header(){
                     Home
                 </Link>
                 <Link href={`#${AppRoutes.FAVORITES}`}>
-                    My Favorites
+                    Favorites
                 </Link>
                 <Link href={`#${AppRoutes.CONTACT}`}>
                     Contato
