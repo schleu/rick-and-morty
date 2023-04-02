@@ -56,7 +56,9 @@ export function CharacterList(){
                 />
               </>
             ):(
-              "Nenhum personagem encontrado"
+              <div className={styles.notFound}>
+                {`"Eu não encontrei nada de interessante, Morty. Às vezes, a busca não vale o esforço. Mas hey, pelo menos agora temos uma desculpa para comer pizza." - Rick Sanchez`}
+              </div>
             )}
 
           </div>

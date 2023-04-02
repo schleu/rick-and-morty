@@ -32,7 +32,9 @@ export const Filter = ()=>{
         <div className={styles.filter}>
             <form data-testid="filterForm" onSubmit={onSubmit}>
 
-                <input data-testid="name" type="text"  placeholder="Digite o nome do personagem"  {...register('name')}/>
+                <div className={styles.filterName}>
+                    <input data-testid="name" type="text"  placeholder="Digite o nome do personagem"  {...register('name')}/>
+                </div>
 
                 <select data-testid="gender" {...register('gender')} >
                     <option value="" >Gender</option>

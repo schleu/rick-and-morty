@@ -9,6 +9,17 @@
     gap:1rem;
 }
 
+.back{
+    width: 100%;
+}
+
+.back a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
 .card{
     width: 100%;
     display: flex;

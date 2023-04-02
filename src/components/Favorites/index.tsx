@@ -32,7 +32,9 @@ export function Favorites(){
                 {haveFavoriteCharacters ? (
                     <ListCard isLoading={isLoading} characters={characters} />
                 ):(
-                    "Sem personagem favorito."
+                    <div className={styles.notFound}>
+                        {`"Eu não sei, Rick, não tenho um favorito. Acho que cada um tem algo especial a oferecer, e eu gosto de todos eles de maneira diferente." - Morty Smith`}
+                    </div>
                 )}
             </div>
         </main>

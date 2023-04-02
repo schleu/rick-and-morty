@@ -13,7 +13,7 @@ export function Footer(){
                     <a href={'https://www.linkedin.com/in/danilo-schleu/'} target={"_blank"}>    
                         <IoLogoLinkedin className={styles.icone}/>
                     </a>
-                    <a href={'https://github.com/schleu/'} target={"_blank"}>    
+                    <a href={'https://github.com/schleu/rick-and-morty'} target={"_blank"}>    
                         <DiGithub  className={styles.icone}/>
                     </a>
                 </div>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useContext } from 'react';
 import swr, { Fetcher } from 'swr';
 import styles from './styles.module.css';
+import { BiArrowBack } from 'react-icons/bi'
 
 import { Episode } from '@/components/Episode';
 import { ApiRoutes } from '@/contants/ApiRoutes';
@@ -11,6 +12,8 @@ import { useRouter } from 'next/router';
 import starIcon from '../../../public/star.svg';
 import starFilledIcon from '../../../public/starFilled.svg';
 import { Title } from '@/components/Title';
+import Link from 'next/link';
+import { AppRoutes } from '@/contants/AppRoutes';
 
 export default function CharacterDetail(){
   const router = useRouter()
@@ -26,7 +29,14 @@ export default function CharacterDetail(){
 
   return data ? (
     <main className={styles.main}>
-      <Title category='Personagem' title={data.name} description={data.status}/>
+
+      <div className={styles.back}>
+          <Link href={AppRoutes.HOME}>
+            <BiArrowBack />
+            Voltar
+          </Link>
+      </div>
+      <Title category='Personagem' title={data.name} description='Mais informações desse personagem!'/>
       <div key={data.id} className={styles.card}>
         <div className={styles.information}>
           <Image className={styles.profile} src={data.image} alt="" width={300} height={300}/>

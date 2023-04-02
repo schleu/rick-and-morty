@@ -16,8 +16,7 @@
     background-image: url('../../../public/rick_and_morty_logo.png');
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;
-    
+    background-size: contain;   
 }
 
 .filter{
@@ -45,6 +44,9 @@
     }
     .filter{
         top: 20rem;
+    }
+    .logo{
+        margin-top: 8rem;
     }
 }
 

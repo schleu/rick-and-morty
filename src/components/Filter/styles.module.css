@@ -14,9 +14,15 @@
   gap: 1rem;
 }
 
+.filterName{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .filter input{
   width: 100%;
-  max-width: 54rem;
+  max-width: 30rem;
   font-size: 1rem;
   line-height: 1.25rem;
   text-align: center;
@@ -38,7 +44,7 @@
 .filter select{
   outline: 0;
   border: none;
-  border-radius: 0.5rem;  
+  border-radius: 2rem;  
   padding: 0.25rem 1rem;
   
   font-size: 1rem;
