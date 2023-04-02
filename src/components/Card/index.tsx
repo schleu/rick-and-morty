@@ -22,9 +22,13 @@ export const Card = ({character}:Props) => {
 
   return (
     <div className={styles.card}  data-testid="card">
+      
       <Link href={`/character/${character.id}`}>
         <Image src={character.image} alt="" width={235} height={246} priority={true}/>
       </Link>
+      <div className={styles.favoriteButton}>
+        <FavoriteButton characterId={character.id} isFavorite={Boolean(isFavorite)} />
+      </div>
       <div className={styles.cardDescription}>
         <div className={styles.cardName}>
           <h3>{shortedName}</h3>

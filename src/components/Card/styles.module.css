@@ -1,45 +1,55 @@
 .card{
-  max-width: 410px;
+    max-width: 300px;
+    max-height: 400px;
     display: flex;  
     flex-direction: column;
     align-items: center;
-    color:black;
-    gap: 0.5rem;
-    padding: 2rem;
-  
+    
+    gap: 1rem;
+    padding: 1rem;
+
     background: linear-gradient(180deg, #030028 15.97%, #A7CB54 59.72%, #FFFFFF 85.76%);
-    border-radius: 10px;
-  
+    border-radius: 0.625rem;  
     box-shadow: 0.3125rem 0.625rem 0.625rem #00000033;
-    overflow: hidden;
+    position: relative;
   }
-  
+
   .card a img{
     border-radius: 0.625rem;
+  }
+  
+  .card .favoriteButton{
+    position: absolute;
+    top: 50%;
+    translate: -50%;
+    right: 0.5rem;
   }
 
   .cardDescription{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
   
   .cardName{
+    width: 100%;
+    height: 2rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-
+    font-size: 1.5rem;
+    line-height: 130%;
+    text-align: center;
     color: #030028;
+    overflow: hidden;
   }
   
   .tags{
-      width: 90%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 0.25rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem 1rem;
   }
 
   .tag{
@@ -67,7 +77,6 @@
     width: 100%;
     height: 15px;
   }
-
 
   .skeleton{
     animation: skeleton-loading 3s linear infinite alternate;

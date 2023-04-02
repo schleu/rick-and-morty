@@ -19,7 +19,7 @@ export function FavoriteButton({isFavorite, characterId}:Props){
 
     return(
         <button  type='button' className={styles.favorite} onClick={()=>handleFavoriteCharacter(characterId)}>
-            <Image src={isFavorite ? starFilledIcon : starIcon} alt="" width={20} height={20}  />
+            <Image src={isFavorite ? starFilledIcon : starIcon} alt="" width={40} height={40}  />
         </button>
     )
 }
