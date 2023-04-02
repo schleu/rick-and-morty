@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import swr, { Fetcher } from 'swr';
 
-import { ListCard } from '@/components/ListCards';
+import { ListCard } from '@/components/ListCards/index';
 import { ApiRoutes } from '@/contants/ApiRoutes';
 import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext';
 import { iCharacter } from '@/types';
@@ -24,9 +24,10 @@ export function Favorites(){
 
     const haveFavoriteCharacters = characters && characters.length && favorites.length 
 
+    
     return  (
         <main className={styles.main} id={AppRoutes.FAVORITES}>
-            <Title category='Personagens' description='Blá blá blá blá blá algum texto relevante!' title='Meus Favoritos' />
+            <Title category='Personagens' description='"Wubba lubba dub dub!" - Rick Sanchez' title='Meus Favoritos' />
             <div className={styles.container}>
                 {haveFavoriteCharacters ? (
                     <ListCard isLoading={isLoading} characters={characters} />

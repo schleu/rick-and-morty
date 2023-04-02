@@ -27,9 +27,8 @@
   }
 
   .container{
-    width: 3500px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(10, 300px);
     gap: 2rem;
   }
 

@@ -5,7 +5,7 @@ import useSWR, { Fetcher } from 'swr'
 
 import { Pagination } from '@/components/Pagination'
 
-import { ListCard } from '@/components/ListCards'
+import { ListCard } from '@/components/ListCards/index'
 import { ApiRoutes } from '@/contants/ApiRoutes'
 import { response } from '@/types'
 
@@ -31,18 +31,29 @@ export function CharacterList(){
 
     const { data, isLoading } = useSWR(urlApi, fetcherResponse)
 
-    const maxPages =  data?.info?.pages || 1
+    const maxPages =  data?.info?.pages || 0
   
     const characters = data?.results || []
 
     return(
         <div className={styles.main}>
-          <Title category='Personagens' title='Resultado da busca' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae senectus neque, lorem sit in mattis. Vehicula eget eget tellus' />
+          <Title 
+            category='Personagens' 
+            title='Resultado da busca' 
+            description='Uma série animada de ficção científica sobre as aventuras caóticas de um cientista excêntrico e seu neto.' 
+          />
           <div className={styles.container}>
             {characters.length ? (
               <>
-              <ListCard isLoading={isLoading} characters={characters} />
-              <Pagination actualPage={actualPage} totalPages={maxPages} changePage={setActualPage} />
+                <ListCard 
+                  isLoading={isLoading} 
+                  characters={characters} 
+                />
+                <Pagination 
+                  actualPage={actualPage} 
+                  totalPages={maxPages} 
+                  changePage={setActualPage} 
+                />
               </>
             ):(
               "Nenhum personagem encontrado"

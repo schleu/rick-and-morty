@@ -1,5 +1,10 @@
 This project utilizes the Rick and Morty API to display information about the characters, episodes, and locations from the popular animated series "Rick and Morty".
 
+## Preview
+![alt text](./public/preview.png)
+
+[Demo](https://rick-and-morty-three-pi.vercel.app/)
+
 ## Features
 - Display a list of all characters from the show with their name, species, and status
 - Search for characters by name or species
@@ -11,7 +16,7 @@ This project utilizes the Rick and Morty API to display information about the ch
 
 ## Technologies Used
 - NextJs
-- HTML/CSS/JavaScript
+- HTML5/CSS3
 - Rick and Morty API
 
 ## Installation

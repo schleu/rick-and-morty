@@ -21,7 +21,6 @@ export default function Home() {
         <Hero />
         <CharacterList />
         <Favorites />
-        <Contact />
       </main>
     </>
   )

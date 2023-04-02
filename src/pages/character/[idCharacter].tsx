@@ -10,6 +10,7 @@ import { iCharacter } from '@/types';
 import { useRouter } from 'next/router';
 import starIcon from '../../../public/star.svg';
 import starFilledIcon from '../../../public/starFilled.svg';
+import { Title } from '@/components/Title';
 
 export default function CharacterDetail(){
   const router = useRouter()
@@ -25,6 +26,7 @@ export default function CharacterDetail(){
 
   return data ? (
     <main className={styles.main}>
+      <Title category='Personagem' title={data.name} description={data.status}/>
       <div key={data.id} className={styles.card}>
         <div className={styles.information}>
           <Image className={styles.profile} src={data.image} alt="" width={300} height={300}/>

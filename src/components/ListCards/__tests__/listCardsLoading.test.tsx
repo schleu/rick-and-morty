@@ -1,6 +1,6 @@
 import { iCharacter } from '@/types';
 import { render, screen } from '@testing-library/react';
-import { ListCard } from '../index';
+import { ListCard } from '../Xadwa_index';
 
 import '@testing-library/jest-dom'
 

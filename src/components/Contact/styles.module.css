@@ -16,15 +16,6 @@
     border-radius: 10px;
 }
 
-.main h2{
-    font-style: normal;
-    font-weight: 800;
-    line-height: 130%;
-    color: #FFFFFF;
-    font-size: 2rem;
-    text-align: center;
-}
-
 .main .buttons{
     display: flex;
     gap: 2rem;
@@ -79,7 +70,7 @@
     border: 2px solid transparent;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
     .main{
         padding: 2rem 10rem;
     }
