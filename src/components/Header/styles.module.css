@@ -21,15 +21,16 @@
     position: fixed;
     top: 0;
     z-index: 10;
+
+    box-shadow: 1rem 1rem 1rem #00000033;
 }
 
 .header .navigation{
     display: flex;
-    gap: 5rem;
     color:#000000;
+    gap: 1rem;
     font-weight: 700;
 }
-
 .header .navigation a{
     display: flex;
     flex-direction: column;
@@ -38,9 +39,10 @@
 
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1rem;
+    line-height: 150%;
     color: #FFFFFF;
+    
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition: all;
     transition-duration: 0.7s;
@@ -54,5 +56,14 @@
     content: '';
     width: 50%;
     border-bottom: 2px #A7CB54 solid;
-    
+}
+
+@media (min-width: 768px){
+    .header .navigation{
+        gap: 5rem ;
+    }
+
+    .header .navigation a{
+        font-size: 1.5rem;
+    }
 }
