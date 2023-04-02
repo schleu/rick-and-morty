@@ -1,13 +1,38 @@
 .pagination{
     display: flex;
-    gap:0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #A7CB54;
   }
   
   .pagination button{
-    outline: 0;
-    border: none;
-    padding: 0.2rem 0.5rem;
-    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    text-align: center;
+  
+    padding: 0.1rem 2rem;
+  
+
+    filter: drop-shadow(0px 9px 28px rgba(255, 255, 255, 0.1));
   }
   
-  
+  .pagination button span{
+    background: linear-gradient(180deg, #A7CB54 0%, #030028 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .category{
+    
+  }

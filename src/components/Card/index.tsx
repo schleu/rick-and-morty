@@ -23,18 +23,22 @@ export const Card = ({character}:Props) => {
   return (
     <div className={styles.card}  data-testid="card">
       <Link href={`/character/${character.id}`}>
-        <Image src={character.image} alt="" width={200} height={150} priority={true}/>
+        <Image src={character.image} alt="" width={235} height={246} priority={true}/>
       </Link>
       <div className={styles.cardDescription}>
-        <div className={styles.cardTitle}>
+        <div className={styles.cardName}>
           <h3>{shortedName}</h3>
-          <FavoriteButton isFavorite={Boolean(isFavorite)} characterId={character.id} />
+          {/* <FavoriteButton isFavorite={Boolean(isFavorite)} characterId={character.id} /> */}
         </div>
-        <p><span>{character.species}</span> - <span>{character.gender}</span></p>
-        <p className={styles.characterStatus}>
-          <span className={styles.characterStatusPointer} />
-          <span>{character.status}</span>
-        </p>
+        
+      <div className={styles.tags}>
+        <div className={styles.tag}>{character.gender}</div>
+        
+        <div className={styles.tag}>{character.status}</div>
+
+        <div className={styles.tag}>{character.species}</div>
+      </div>
+
       </div>       
     </div>
   )

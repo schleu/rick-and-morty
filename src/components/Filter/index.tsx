@@ -4,6 +4,8 @@ import zod from 'zod';
 
 import { gender, status } from '@/types';
 import styles from './styles.module.css';
+import { useContext } from 'react';
+import { FilterContext } from '@/context/FilterContext';
 
 const zGenderEnum = zod.enum([...gender,'']) 
 const zStatusEnum = zod.enum([...status,''])
@@ -16,28 +18,21 @@ const schema = zod.object({
 
 export type FilterProps = zod.infer<typeof schema>;
 
-interface iProps{
-    setFilters:(any:FilterProps)=>void
-    filter?:FilterProps
-}
+export const Filter = ()=>{  
 
-export const Filter = ({setFilters,filter}:iProps)=>{  
+    const {filters, handleFilter} = useContext(FilterContext)
     
     const { register, handleSubmit} = useForm<FilterProps>({
-        defaultValues:filter,
+        defaultValues:filters,
     })
 
-    const onSubmit = handleSubmit((e)=>setFilters(e)); 
+    const onSubmit = handleSubmit((e)=> handleFilter(e)); 
 
     return (    
         <div className={styles.filter}>
-            
-            <div className={styles.title}>
-                Filtro
-            </div>
             <form data-testid="filterForm" onSubmit={onSubmit}>
 
-                <input data-testid="name" type="text"  placeholder="personagem"  {...register('name')}/>
+                <input data-testid="name" type="text"  placeholder="Digite aqui o nome do personagem que deseja encontrar"  {...register('name')}/>
 
                 <select data-testid="gender" {...register('gender')} >
                     <option value="" >Gender</option>
@@ -45,7 +40,7 @@ export const Filter = ({setFilters,filter}:iProps)=>{
                         <option key={e} value={e}>{e}</option>
                     )}
                 </select>
-
+                
                 <select data-testid="status" {...register('status')} >
                     <option value="" >Status</option>
                     {status.map(e=>
@@ -53,7 +48,9 @@ export const Filter = ({setFilters,filter}:iProps)=>{
                     )}
                 </select>
                 
-                <button data-testid="search"  type="submit">Pesquisar</button>
+                <button data-testid="search"  type="submit">
+                    <span>Pesquisar</span>
+                </button>
             </form>
         </div>
     )

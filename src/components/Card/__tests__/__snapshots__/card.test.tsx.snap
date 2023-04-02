@@ -13,58 +13,42 @@ exports[`<Card /> snapshot 1`] = `
         alt=""
         data-nimg="1"
         decoding="async"
-        height="150"
+        height="246"
         src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75"
         srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75 2x"
         style="color: transparent;"
-        width="200"
+        width="235"
       />
     </a>
     <div
       class="cardDescription"
     >
       <div
-        class="cardTitle"
+        class="cardName"
       >
         <h3>
           Rick Sanchez
         </h3>
-        <button
-          class="favorite"
-          type="button"
-        >
-          <img
-            alt=""
-            data-nimg="1"
-            decoding="async"
-            height="20"
-            loading="lazy"
-            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-            style="color: transparent;"
-            width="20"
-          />
-        </button>
       </div>
-      <p>
-        <span>
-          Human
-        </span>
-         - 
-        <span>
-          Male
-        </span>
-      </p>
-      <p
-        class="characterStatus"
+      <div
+        class="tags"
       >
-        <span
-          class="characterStatusPointer"
-        />
-        <span>
+        <div
+          class="tag"
+        >
+          Male
+        </div>
+        <div
+          class="tag"
+        >
           Alive
-        </span>
-      </p>
+        </div>
+        <div
+          class="tag"
+        >
+          Human
+        </div>
+      </div>
     </div>
   </div>
 </div>

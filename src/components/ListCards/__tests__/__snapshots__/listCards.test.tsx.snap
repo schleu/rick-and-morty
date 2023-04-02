@@ -3,201 +3,157 @@
 exports[`<ListCard /> screenshot 1`] = `
 <div>
   <div
-    class="description"
+    class="main"
   >
     <div
-      class="card"
-      data-testid="card"
+      class="container"
     >
-      <a
-        href="/character/1"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height="150"
-          src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75"
-          srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75 2x"
-          style="color: transparent;"
-          width="200"
-        />
-      </a>
       <div
-        class="cardDescription"
+        class="card"
+        data-testid="card"
       >
-        <div
-          class="cardTitle"
+        <a
+          href="/character/1"
         >
-          <h3>
-            Rick Sanchez
-          </h3>
-          <button
-            class="favorite"
-            type="button"
-          >
-            <img
-              alt=""
-              data-nimg="1"
-              decoding="async"
-              height="20"
-              loading="lazy"
-              src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-              style="color: transparent;"
-              width="20"
-            />
-          </button>
-        </div>
-        <p>
-          <span>
-            Human
-          </span>
-           - 
-          <span>
-            Male
-          </span>
-        </p>
-        <p
-          class="characterStatus"
-        >
-          <span
-            class="characterStatusPointer"
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height="246"
+            src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="235"
           />
-          <span>
-            Alive
-          </span>
-        </p>
+        </a>
+        <div
+          class="cardDescription"
+        >
+          <div
+            class="cardName"
+          >
+            <h3>
+              Rick Sanchez
+            </h3>
+          </div>
+          <div
+            class="tags"
+          >
+            <div
+              class="tag"
+            >
+              Male
+            </div>
+            <div
+              class="tag"
+            >
+              Alive
+            </div>
+            <div
+              class="tag"
+            >
+              Human
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card"
-    >
-      <a
-        href="/character/2"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height="150"
-          src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75"
-          srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75 2x"
-          style="color: transparent;"
-          width="200"
-        />
-      </a>
       <div
-        class="cardDescription"
+        class="card"
+        data-testid="card"
       >
-        <div
-          class="cardTitle"
+        <a
+          href="/character/2"
         >
-          <h3>
-            Morty Smith
-          </h3>
-          <button
-            class="favorite"
-            type="button"
-          >
-            <img
-              alt=""
-              data-nimg="1"
-              decoding="async"
-              height="20"
-              loading="lazy"
-              src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-              style="color: transparent;"
-              width="20"
-            />
-          </button>
-        </div>
-        <p>
-          <span>
-            Human
-          </span>
-           - 
-          <span>
-            Male
-          </span>
-        </p>
-        <p
-          class="characterStatus"
-        >
-          <span
-            class="characterStatusPointer"
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height="246"
+            src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="235"
           />
-          <span>
-            Alive
-          </span>
-        </p>
+        </a>
+        <div
+          class="cardDescription"
+        >
+          <div
+            class="cardName"
+          >
+            <h3>
+              Morty Smith
+            </h3>
+          </div>
+          <div
+            class="tags"
+          >
+            <div
+              class="tag"
+            >
+              Male
+            </div>
+            <div
+              class="tag"
+            >
+              Alive
+            </div>
+            <div
+              class="tag"
+            >
+              Human
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card"
-    >
-      <a
-        href="/character/3"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height="150"
-          src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=640&q=75"
-          srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=640&q=75 2x"
-          style="color: transparent;"
-          width="200"
-        />
-      </a>
       <div
-        class="cardDescription"
+        class="card"
+        data-testid="card"
       >
-        <div
-          class="cardTitle"
+        <a
+          href="/character/3"
         >
-          <h3>
-            Summer Smith
-          </h3>
-          <button
-            class="favorite"
-            type="button"
-          >
-            <img
-              alt=""
-              data-nimg="1"
-              decoding="async"
-              height="20"
-              loading="lazy"
-              src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-              style="color: transparent;"
-              width="20"
-            />
-          </button>
-        </div>
-        <p>
-          <span>
-            Human
-          </span>
-           - 
-          <span>
-            Female
-          </span>
-        </p>
-        <p
-          class="characterStatus"
-        >
-          <span
-            class="characterStatusPointer"
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height="246"
+            src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=640&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F3.jpeg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="235"
           />
-          <span>
-            Alive
-          </span>
-        </p>
+        </a>
+        <div
+          class="cardDescription"
+        >
+          <div
+            class="cardName"
+          >
+            <h3>
+              Summer Smith
+            </h3>
+          </div>
+          <div
+            class="tags"
+          >
+            <div
+              class="tag"
+            >
+              Female
+            </div>
+            <div
+              class="tag"
+            >
+              Alive
+            </div>
+            <div
+              class="tag"
+            >
+              Human
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

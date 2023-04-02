@@ -14,12 +14,12 @@ const mockFilter: FilterProps = {
 
 describe('<Filter />', () => {
   it('snapshot', () => {
-    const { container } = render(<Filter setFilters={mockSetFilters} />);
+    const { container } = render(<Filter />);
     expect(container).toMatchSnapshot()
   });
 
   it('should render properly', () => {
-    render(<Filter setFilters={mockSetFilters} filter={mockFilter} />);
+    render(<Filter />);
 
     const nameInput = screen.getByTestId('name') as HTMLInputElement;
     const genderSelect = screen.getByTestId('gender') as HTMLSelectElement;
@@ -33,7 +33,7 @@ describe('<Filter />', () => {
   });
 
   it('should be able change values', async () => {
-    const { getByTestId } = render(<Filter setFilters={mockSetFilters} />);
+    const { getByTestId } = render(<Filter />);
 
     const nameInput = getByTestId('name') as HTMLInputElement;
     const genderSelect = getByTestId('gender') as HTMLSelectElement;
@@ -51,7 +51,7 @@ describe('<Filter />', () => {
 
   it('should call setFilters with correct values', async () => {
 
-    const { getByTestId } = render(<Filter setFilters={mockSetFilters} />);
+    const { getByTestId } = render(<Filter />);
 
     const nameInput = getByTestId('name') as HTMLInputElement;
     const genderSelect = getByTestId('gender') as HTMLSelectElement;

@@ -6,19 +6,27 @@ exports[`Pagination component snapshot 1`] = `
     class="pagination"
   >
     <button>
-      &lt;&lt;
+      <span>
+        &lt;&lt;
+      </span>
     </button>
     <button>
-      &lt;
+      <span>
+        &lt;
+      </span>
     </button>
     <p>
       2 de 5
     </p>
     <button>
-      &gt;
+      <span>
+        &gt;
+      </span>
     </button>
     <button>
-      &gt;&gt;
+      <span>
+        &gt;&gt;
+      </span>
     </button>
   </div>
 </div>

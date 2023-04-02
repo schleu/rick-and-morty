@@ -1,19 +1,41 @@
-.description {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1rem;
-  
+  .main {
+    max-width: 1440px;
+    overflow: hidden;
+    overflow-x: scroll;
+
+    gap: 2rem;
     font-size: 0.85rem;
-    max-width: var(--max-width);
-    width: 100%;
-    z-index: 2;
-    font-family: var(--font-mono); 
+
+    scrollbar-width: auto;
+    scrollbar-color: #030028 #ffffff;
+
+    padding-bottom: 4rem;
   }
 
+  .main::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .main::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .main::-webkit-scrollbar-thumb {
+    background-color: #030028;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  .container{
+    width: 4500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+
   @media screen and (max-width: 768px) {
-    .description {
+    .main {
       justify-content: center;
       align-items: center;
     }

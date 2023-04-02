@@ -3,16 +3,15 @@ import { useContext } from 'react';
 import swr, { Fetcher } from 'swr';
 import styles from './styles.module.css';
 
+import { Episode } from '@/components/Episode';
+import { ApiRoutes } from '@/contants/ApiRoutes';
+import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext';
 import { iCharacter } from '@/types';
 import { useRouter } from 'next/router';
+import femaleIcon from '../../../public/female.svg';
+import maleIcon from '../../../public/male.svg';
 import starIcon from '../../../public/star.svg';
 import starFilledIcon from '../../../public/starFilled.svg';
-import maleIcon from '../../../public/male.svg'
-import femaleIcon from '../../../public/female.svg'
-import arrowLeftIcon from '../../../public/arrowLeft.svg'
-import { Episode } from '@/components/Episode';
-import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext';
-import { ApiRoutes } from '@/contants/ApiRoutes';
 
 export default function CharacterDetail(){
   const router = useRouter()
@@ -72,6 +71,7 @@ export default function CharacterDetail(){
 
         </div>
       </div>
+      
     </main>
   ):null
 }

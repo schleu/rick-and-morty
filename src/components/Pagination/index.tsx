@@ -27,11 +27,19 @@ export function Pagination({actualPage,totalPages,changePage}:iProps){
 
     return(
         <div className={styles.pagination}>
-            <button onClick={fisrtPage}>{"<<"}</button>
-            <button onClick={previousPage}>{"<"}</button>
+            <button onClick={fisrtPage}>
+                <span>{"<<"}</span>
+            </button>
+            <button onClick={previousPage}>
+                <span>{"<"}</span>
+            </button>
             <p>{`${actualPage} de ${totalPages}`}</p>
-            <button onClick={nextPage}>{">"}</button>
-            <button onClick={lastPage}>{">>"}</button>
+            <button onClick={nextPage}>
+                <span>{">"}</span>
+            </button>
+            <button onClick={lastPage}>
+                <span>{">>"}</span>
+            </button>
         </div>
     )
 }

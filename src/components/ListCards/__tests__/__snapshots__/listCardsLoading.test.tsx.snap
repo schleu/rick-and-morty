@@ -3,646 +3,650 @@
 exports[`<ListCard /> screenshot loading 1`] = `
 <div>
   <div
-    class="description"
+    class="main"
   >
     <div
-      class="card"
-      data-testid="card-skeleton"
+      class="container"
     >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      class="card"
-      data-testid="card-skeleton"
-    >
       <div
-        class="cardSkeletonImage skeleton"
-      />
-      <div
-        class="cardDescription"
+        class="card"
+        data-testid="card-skeleton"
       >
         <div
-          class="cardTitle"
-        >
-          <h3
-            class="skeleton cardSkeletonTitle"
-          />
-          <div
-            class="cardSkeletonFavorite skeleton"
-          />
-        </div>
-        <p
-          class="cardSkeletonStatus skeleton"
+          class="cardSkeletonImage skeleton"
         />
-        <p
-          class="characterStatus skeleton"
+        <div
+          class="cardDescription"
         >
-          <span
-            class="characterStatusPointer skeleton"
+          <div
+            class="cardTitle"
+          >
+            <h3
+              class="skeleton cardSkeletonTitle"
+            />
+            <div
+              class="cardSkeletonFavorite skeleton"
+            />
+          </div>
+          <p
+            class="cardSkeletonStatus skeleton"
           />
-        </p>
+          <p
+            class="characterStatus skeleton"
+          >
+            <span
+              class="characterStatusPointer skeleton"
+            />
+          </p>
+        </div>
       </div>
     </div>
   </div>

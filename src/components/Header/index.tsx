@@ -13,8 +13,11 @@ export function Header(){
                 <Link href={'/'}>
                     Home
                 </Link>
-                <Link href={'/favorites'}>
+                <Link href={'#favorites'}>
                     My Favorites
+                </Link>
+                <Link href={'#contato'}>
+                    Contato
                 </Link>
             </div>
         </header>

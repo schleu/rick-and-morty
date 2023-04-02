@@ -3,7 +3,7 @@
 exports[`<ListCard /> screenshot empty 1`] = `
 <div>
   <div
-    class="description"
+    class="main"
   >
     <h2>
       No characters found

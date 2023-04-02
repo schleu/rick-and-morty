@@ -8,14 +8,13 @@
     align-items: center;
     justify-content: space-between;
 
-    background-color: #fdfdfd;
+    background-color: transparent;
     box-shadow: 0rem 0rem 0.5rem #00000033;
     box-sizing: border-box;
 
     position: fixed;
     top: 0;
     z-index: 10;
-
 }
 
 .header .navigation{
@@ -25,8 +24,29 @@
     font-weight: 700;
 }
 
-.header .navigation a:hover{
-    text-shadow: 0rem 0.9rem 1rem #00000099;
+.header .navigation a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition: all;
     transition-duration: 0.7s;
+}
+
+.header .navigation a:hover{
+    color: #A7CB54;
+}
+
+.header .navigation a:hover:after{
+    content: '';
+    width: 50%;
+    border-bottom: 2px #A7CB54 solid;
+    
 }

@@ -5,18 +5,13 @@ exports[`<Filter /> snapshot 1`] = `
   <div
     class="filter"
   >
-    <div
-      class="title"
-    >
-      Filtro
-    </div>
     <form
       data-testid="filterForm"
     >
       <input
         data-testid="name"
         name="name"
-        placeholder="personagem"
+        placeholder="Digite aqui o nome do personagem que deseja encontrar"
         type="text"
       />
       <select
@@ -78,7 +73,9 @@ exports[`<Filter /> snapshot 1`] = `
         data-testid="search"
         type="submit"
       >
-        Pesquisar
+        <span>
+          Pesquisar
+        </span>
       </button>
     </form>
   </div>

@@ -1,63 +1,52 @@
 .card{
-    width: 200px;
+  max-width: 410px;
     display: flex;  
     flex-direction: column;
     align-items: center;
-  
-    background-color: #fdfdfd;
     color:black;
     gap: 0.5rem;
+    padding: 2rem;
   
-    
-    border-radius: 0.25rem;
+    background: linear-gradient(180deg, #030028 15.97%, #A7CB54 59.72%, #FFFFFF 85.76%);
+    border-radius: 10px;
+  
     box-shadow: 0.3125rem 0.625rem 0.625rem #00000033;
-    overflow: hidden
-    ;
+    overflow: hidden;
   }
   
-  
   .card a img{
-    box-shadow: 0rem 0.5rem 1rem 0rem #00000033;
+    border-radius: 0.625rem;
   }
 
   .cardDescription{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0.625rem;
-    padding: 0.625rem 1.25rem;
-  }
-  
-  .cardTitle{
-    width: 100%;
-    height: 2rem;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
   }
+  
+  .cardName{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 
-  .cardTitle .favorite{
-    cursor: pointer;
-    border: none;
-    outline: 0;
-    background-color: transparent;
+    color: #030028;
   }
   
-  .characterStatus{
-    height: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
+  .tags{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.25rem 1rem;
   }
 
-  .characterStatusPointer{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: greenyellow;
+  .tag{
+    padding: 0.25rem 2rem;
+    border: 1px solid #030028;
+    border-radius: 10rem;
   }
-
 
   .cardSkeletonImage{
     width: 100%;

@@ -1,44 +1,13 @@
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
-import { useContext, useMemo, useState } from 'react'
-import useSWR, { Fetcher } from 'swr'
 
-
-import { Card, CardSkeleton } from '@/components/Card'
-import { Filter, FilterProps } from '@/components/Filter'
-import { Pagination } from '@/components/Pagination'
-
-import { ApiRoutes } from '@/contants/ApiRoutes'
-import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext'
-import { response } from '@/types'
-import { ListCard } from '@/components/ListCards'
+import { Filter } from '@/components/Filter'
+import { Favorites } from '@/components/Favorites'
+import { CharacterList } from '@/components/CharacterList'
+import { Contact } from '@/components/Contact'
 
 
 export default function Home() {
-  const [filter, setFilter] = useState<FilterProps>()
-  const { favorites } = useContext(FavoriteCharacterContext)
-  const [actualPage, setActualPage] = useState(1)  
-
-  const fetcherResponse:Fetcher<response> = (args: RequestInfo | URL) => fetch(args).then(res => res.json())
-  
-
-  const urlApi = useMemo(() => {
-    let newUrl = String(ApiRoutes.characters);
-    
-    const characterFilter = new URLSearchParams(Object(filter)).toString()
-    newUrl += `?page=${actualPage}&${characterFilter}`
-
-    return newUrl
-  },[filter,actualPage])
-  
-  const { data, isLoading } = useSWR(urlApi, fetcherResponse)
-
-  const maxPages =  data?.info?.pages || 1
-
-  const characters = data?.results || []
-
-  const getFilter = (i:any) => setFilter(i)
-
   return (
     <>
       <Head>
@@ -48,9 +17,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Filter setFilters={getFilter} filter={filter} />       
-        <ListCard isLoading={isLoading} characters={characters} />
-        <Pagination actualPage={actualPage} totalPages={maxPages} changePage={setActualPage} />
+        <div className={styles.logo} />
+        <Filter />
+        <CharacterList />
+        <Favorites />
+        <Contact />
       </main>
     </>
   )
