@@ -26,47 +26,54 @@ export default function CharacterDetail(){
   return data ? (
     <main className={styles.main}>
       <div key={data.id} className={styles.card}>
-        <Image src={data.image} alt="" width={300} height={300}/>
-        <div className={styles.description}>
-          <div className={styles.top}>
-            <h3 className={styles.title}>{data.name}</h3>
-            <div className={styles.favorite} onClick={()=>handleFavoriteCharacter(data.id)}>
-              <Image src={isFavorite ? starFilledIcon : starIcon} alt="" width={40} height={40}  className={""}/>
+        <div className={styles.information}>
+          <Image className={styles.profile} src={data.image} alt="" width={300} height={300}/>
+          <div className={styles.description}>
+            <div className={styles.top}>
+              <h3 className={styles.title}>{data.name}</h3>
+              <div className={styles.favorite} onClick={()=>handleFavoriteCharacter(data.id)}>
+                <Image src={isFavorite ? starFilledIcon : starIcon} alt="" width={40} height={40}  className={""}/>
+              </div>
             </div>
-          </div>
 
-          <div className={styles.data}>
-            <p>{data.species} - {data.gender} </p>
-          </div>
-
-          <div className={''}>
-            <p className={styles.characterStatus}>
-              <div className={styles.characterStatusPointer} />
-              <p>{data.status}</p>
-            </p>
-            <div className={''}>
-              <label htmlFor="">Last known location:</label>
-              {data.location.name}
+            <div className={styles.info}>
+              <label htmlFor="">Especie:</label>
+              {data.species}
             </div>
-          </div>
-
-          <div className={''}>
-            <div className={''}>
-              <label htmlFor="">Tipo:</label>
-              {data.type}
+            
+            <div className={styles.info}>
+              <label htmlFor="">Gender:</label>
+              {data.gender}
             </div>
-            <div className={''}>
+            
+            <div className={styles.info}>
               <label htmlFor="">First seen in:</label>
               {data.origin.name}
             </div>
-          </div>
+            
+            <div className={styles.info}>
+              <label htmlFor="">Last known location:</label>
+              {data.location.name}
+            </div>
 
-          <div className={styles.episodes}>
-              {data.episode.map(e=>
-                <Episode key={e} urlEpisode={e} />
-              )}
+            <div className={styles.info}>
+              <label htmlFor="">Status: </label>
+              <div className={styles.characterStatusPointer} />
+              <p>{data.status}</p>
+            </div>
+            
+            <div className={styles.info}>
+              <label htmlFor="">Tipo:</label>
+              {data.type}
+            </div>
+            
           </div>
+        </div>
 
+        <div className={styles.episodes}>
+            {data.episode.map(e=>
+              <Episode key={e} urlEpisode={e} />
+            )}
         </div>
       </div>
       

@@ -3,28 +3,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    margin-top: 2rem;
+    padding: 5rem 1rem;
     gap:1rem;
 }
 
 .card{
     width: 100%;
-    max-width: 70%;
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 1rem;
+    border: solid 1px #00000033;
+    padding: 1rem;
+    gap: 2rem;
 
     overflow: hidden;
+    background: linear-gradient(180deg, #030028 15.97%, #A7CB54 59.72%, #FFFFFF 85.76%);
     box-shadow: 1rem 1rem 1rem #00000033;
+}
+
+.card .profile{
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem #00000033;
+}
+
+.info {
+    display: flex;
+    gap:0.25rem
+}
+
+.info label{
+    font-weight: bold;
+}
+
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card .description{
     flex: 1;  
     padding: 1rem 2rem;
-    background-color: #fbfafa;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .card .top{
@@ -32,6 +59,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: aliceblue;
 }
 
 .card .top .title{
@@ -39,7 +67,7 @@
     font-weight: 700;
     line-height: 3.5rem;
     text-shadow: 0.4rem 0.4rem 0.4rem #00000033;
-    color: #121212;
+    color: aliceblue;
 }
 
 .card .top .favorite{
@@ -55,17 +83,47 @@
 
 .episodes{
     width: 100%;
-    height: 70px;
+    max-height: 300px;
+    border-radius: 0.625rem;
     background-color: #c3c2c133;
     border-radius: 0.5rem;
-    padding: 0.75rem 0.5rem;
+    padding: 1rem 0.5rem;
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.75rem;
 
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: auto;
+    scrollbar-color: #030028 #c3c2c111;
 }
+
+.episodes::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  .episodes::-webkit-scrollbar-track {
+    background: #c3c2c111;
+  }
+
+  .episodes::-webkit-scrollbar-thumb {
+    background-color: #030028;
+    border-radius: 0.625rem;
+    border: 3px solid #c3c2c111;
+  }
+
+  @media (min-width: 1024px){
+    .information{
+        flex-direction: row;
+        justify-content: space-between;
+        color: aliceblue;
+    }
+    .card .top .title{
+        color: aliceblue;
+    }
+
+  }
+
+ 
