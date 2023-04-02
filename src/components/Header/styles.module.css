@@ -9,6 +9,12 @@
     justify-content: space-between;
 
     background-color: transparent;
+
+    background-image: url('../../../public/bg.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     box-shadow: 0rem 0rem 0.5rem #00000033;
     box-sizing: border-box;
 

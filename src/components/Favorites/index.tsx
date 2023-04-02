@@ -7,6 +7,8 @@ import { FavoriteCharacterContext } from '@/context/FavoritesCharactersContext';
 import { iCharacter } from '@/types';
 
 import styles from './styles.module.css';
+import { AppRoutes } from '@/contants/AppRoutes';
+import { Title } from '../Title';
 
 export function Favorites(){
 
@@ -22,13 +24,16 @@ export function Favorites(){
 
     const haveFavoriteCharacters = characters && characters.length && favorites.length 
 
-    return haveFavoriteCharacters ? (
-        <main className={styles.main}>
-        <ListCard isLoading={isLoading} characters={characters} />
-        </main>
-    ):(
-        <main className={styles.main}>
-        Sem personagem favorito.
+    return  (
+        <main className={styles.main} id={AppRoutes.FAVORITES}>
+            <Title category='Personagens' description='Blá blá blá blá blá algum texto relevante!' title='Meus Favoritos' />
+            <div className={styles.container}>
+                {haveFavoriteCharacters ? (
+                    <ListCard isLoading={isLoading} characters={characters} />
+                ):(
+                    "Sem personagem favorito."
+                )}
+            </div>
         </main>
     )
 }

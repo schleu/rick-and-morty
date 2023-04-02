@@ -1,11 +1,9 @@
+import { AppRoutes } from '@/contants/AppRoutes'
 import styles from './styles.module.css'
 
 export function Contact(){
-
-
-
     return(
-        <div className={styles.main}>
+        <div className={styles.main} id={AppRoutes.CONTACT}>
             <div className={styles.card}>
                 <h2>Lorem impsun dolor</h2>
                 <div className={styles.buttons}>

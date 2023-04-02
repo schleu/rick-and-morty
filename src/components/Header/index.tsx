@@ -2,8 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '../../../public/logo.png'
 import styles from './styles.module.css'
+import { AppRoutes } from '@/contants/AppRoutes'
 
 export function Header(){
+
     return(
         <header className={styles.header}>
             <Link href={'/'}>        
@@ -13,10 +15,10 @@ export function Header(){
                 <Link href={'/'}>
                     Home
                 </Link>
-                <Link href={'#favorites'}>
+                <Link href={`#${AppRoutes.FAVORITES}`}>
                     My Favorites
                 </Link>
-                <Link href={'#contato'}>
+                <Link href={`#${AppRoutes.CONTACT}`}>
                     Contato
                 </Link>
             </div>
