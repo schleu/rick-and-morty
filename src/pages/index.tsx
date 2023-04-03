@@ -1,11 +1,10 @@
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 
-import { Filter } from '@/components/Filter'
-import { Favorites } from '@/components/Favorites'
 import { CharacterList } from '@/components/CharacterList'
-import { Contact } from '@/components/Contact'
+import { Favorites } from '@/components/Favorites'
 import { Hero } from '@/components/Hero'
+import {GetServerSideProps} from 'next'
 
 
 export default function Home() {
@@ -27,3 +26,13 @@ export default function Home() {
 }
 
 
+export const getServerSideProps:GetServerSideProps = async ({ req, res }) =>{
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  )
+
+  return {
+    props: {},
+  }
+}
