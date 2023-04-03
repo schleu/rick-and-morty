@@ -1,7 +1,7 @@
 This project utilizes the Rick and Morty API to display information about the characters, episodes, and locations from the popular animated series "Rick and Morty".
 
 ## Preview
-![alt text](./public/preview.png)
+![alt text](./public/preview.webp)
 
 [Demo](https://rick-and-morty-three-pi.vercel.app/)
 

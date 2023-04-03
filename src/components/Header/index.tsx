@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../../../public/logo.png'
+import Logo from '../../../public/logo.webp'
 import styles from './styles.module.css'
 import { AppRoutes } from '@/contants/AppRoutes'
 
