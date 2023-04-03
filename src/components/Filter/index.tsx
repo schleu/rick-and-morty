@@ -50,7 +50,7 @@ export const Filter = ()=>{
                     )}
                 </select>
                 
-                <button data-testid="search"  type="submit">
+                <button aria-label='pesquisar' title='pesquisar' data-testid="search"  type="submit">
                     <span>Pesquisar</span>
                 </button>
             </form>

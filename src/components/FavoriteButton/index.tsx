@@ -18,7 +18,7 @@ export function FavoriteButton({isFavorite, characterId}:Props){
     const {handleFavoriteCharacter} = useContext(FavoriteCharacterContext)
 
     return(
-        <button  type='button' className={styles.favorite} onClick={()=>handleFavoriteCharacter(characterId)}>
+        <button aria-label="like or dislike button" title="like or dislike button" type='button' className={styles.favorite} onClick={()=>handleFavoriteCharacter(characterId)}>
             <Image src={isFavorite ? starFilledIcon : starIcon} alt="" width={40} height={40}  />
         </button>
     )
