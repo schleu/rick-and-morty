@@ -31,7 +31,7 @@ export default function CharacterDetail(){
     <main className={styles.main}>
 
       <div className={styles.back}>
-          <Link href={AppRoutes.HOME}>
+          <Link href={AppRoutes.HOME} aria-label='Back to home'>
             <BiArrowBack />
             Voltar
           </Link>

@@ -8,6 +8,7 @@ import { iCharacter } from '../../types/index'
 
 import { FavoriteButton } from '../FavoriteButton'
 import styles from './styles.module.css'
+import { AppRoutes } from '@/contants/AppRoutes'
 
 type Props = {
   character:iCharacter
@@ -27,23 +28,22 @@ export const Card = ({character}:Props) => {
         <FavoriteButton characterId={character.id} isFavorite={Boolean(isFavorite)} />
       </div>
 
-      <Link href={`/character/${character.id}`}>
+      <Link aria-label={`Details ${character.name}`} href={AppRoutes.CHARACTER.replace(':id', String(character.id))}>
         <Image src={character.image} alt="" width={235} height={246} priority={true}/>
       </Link>
       
       <div className={styles.cardDescription}>
         <div className={styles.cardName}>
           <h3>{shortedName}</h3>
-          {/* <FavoriteButton isFavorite={Boolean(isFavorite)} characterId={character.id} /> */}
         </div>
         
-      <div className={styles.tags}>
-        <div className={styles.tag}>{character.gender}</div>
-        
-        <div className={styles.tag}>{character.status}</div>
+        <div className={styles.tags}>
+          <div className={styles.tag}>{character.gender}</div>
+          
+          <div className={styles.tag}>{character.status}</div>
 
-        <div className={styles.tag}>{character.species}</div>
-      </div>
+          <div className={styles.tag}>{character.species}</div>
+        </div>
 
       </div>       
     </div>

@@ -8,17 +8,17 @@ export function Header(){
 
     return(
         <header className={styles.header}>
-            <Link href={'/'}>        
+            <Link aria-label='Home' href={AppRoutes.HOME}>        
                 <Image src={Logo} alt="" width={70} height={70}  />
             </Link>
             <div className={styles.navigation}>
-                <Link href={'/'}>
+                <Link aria-label='Home' href={AppRoutes.HOME}>
                     Home
                 </Link>
-                <Link href={`#${AppRoutes.FAVORITES}`}>
+                <Link aria-label='Favorites' href={`#${AppRoutes.FAVORITES}`}>
                     Favorites
                 </Link>
-                <Link href={`#${AppRoutes.CONTACT}`}>
+                <Link aria-label='Contact' href={`#${AppRoutes.CONTACT}`}>
                     Contato
                 </Link>
             </div>
